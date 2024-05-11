@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captura de Leads</title>
+    <link rel="stylesheet" href="CSS/cadastro.css">
+
+</head>
+
+
+    <body>
+        <div class="container">
+
+            <h1>Cadastro de Clientes</h1>
+            <form action="">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="socialmidia">Como nos encontrou?</label>
+                    <select name="socialmidia" id="socialmidia">
+                        <option value="instagram">Instagram</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="linkedin">Linkedin</option>
+                        <option value="twitter">Twitter</option>
+
+
+
+                    </select>
+
+                    <button type="submit"  >Enviar</button>
+                    
+                    <!--desafio colocar o botão para página inicial-->
+                    <!--solução abaixo só funciona clicando no texto-->
+                    <button type="submit"  ><a href="inicio.html">Página inicial</a></button>
+                    
+                    <!--a soluçao abaixo utilizada comando java script-->
+                    <button onclick="window.location.href='inicio.html'">Ir para inicio</button>
+                    
+                    <!--o botão abaixo não vai funcionar por conta do requiresmo primeiro-->
+                    <a href="inicio.html"><button>PG página</button></a>
+            
+
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </body>
+</html>
